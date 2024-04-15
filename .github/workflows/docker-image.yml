@@ -26,4 +26,4 @@ jobs:
         run: docker build -t ashelya/lab4:latest .
 
       - name: Push Docker image to Docker Hub
-        run: docker pushashelya/lab4:latest :latest
+        run: docker push ashelya/lab4:latest

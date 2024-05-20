@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "AWS region to create resources in"
-  default     = "eu-west-2"
+  default     = "us-east-1"
 }
 
 variable "instance_type" {
@@ -16,4 +16,14 @@ variable "key_name" {
 variable "project_name" {
   description = "Project name"
   default     = "lab6"
+}
+
+variable "aws_access_key" {
+  description = "AWS Access Key"
+  type        = string
+}
+
+variable "aws_secret_key" {
+  description = "AWS Secret Key"
+  type        = string
 }

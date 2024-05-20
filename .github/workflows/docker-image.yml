@@ -23,7 +23,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t ashelya/lab4:latest .
+        run: docker build -t yullit/lab6:latest .
 
       - name: Push Docker image to Docker Hub
-        run: docker push ashelya/lab4:latest
+        run: docker push yullit/lab6:latest
